@@ -1,5 +1,5 @@
 # tsapis
-Various cloud services API response types documented and written in TypeScript
+Various cloud services API response types documented and written in TypeScript.  
 
 [![npm version](https://badge.fury.io/js/tsapis.svg)](https://badge.fury.io/js/tsapis)
 [![npm](https://img.shields.io/npm/dw/tsapis.svg)](https://www.npmjs.com/package/tsapis)
@@ -7,6 +7,11 @@ Various cloud services API response types documented and written in TypeScript
 [![Build Status](https://travis-ci.org/joonhocho/tsapis.svg?branch=master)](https://travis-ci.org/joonhocho/tsapis)
 [![Dependency Status](https://david-dm.org/joonhocho/tsapis.svg)](https://david-dm.org/joonhocho/tsapis)
 [![GitHub](https://img.shields.io/github/license/joonhocho/tsapis.svg)](https://github.com/joonhocho/tsapis/blob/master/LICENSE)
+
+## Motivation
+Many great cloud services APIs do not have their own npm repositories, or even if they do many of them are missing types.  
+This package is here to help you.  
+You are welcome to help typing all the great cloud services out there!
 
 ## Get Started
 ```
