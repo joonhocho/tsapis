@@ -9,7 +9,7 @@ Various cloud services API response types documented and written in TypeScript.
 [![GitHub](https://img.shields.io/github/license/joonhocho/tsapis.svg)](https://github.com/joonhocho/tsapis/blob/master/LICENSE)
 
 ## Motivation
-Many great cloud services APIs do not have their own npm repositories, or even if they do many of them are missing types.  
+Many great cloud services APIs do not have their own npm repositories, or even if they do, many of them are missing types.  
 This package is here to help you.  
 You are welcome to help typing all the great cloud services out there!
 
