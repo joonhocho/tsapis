@@ -35,7 +35,7 @@ const res: IpwhoisResponse = await axios.get('http://free.ipwhois.io/json/1.1.1.
  - [UserAgent.App](https://useragent.app/)
 
 ## Contribute
-Pull Requests are welcome!
+Pull Requests are welcome!  
 Just try to be consistent with existing naming conventions and coding styles.  
 Names must be concise, easy to read, and precisely descriptive.  
 I've setup prettier, so make sure your codes are auto formatted according to my prettier setup.
