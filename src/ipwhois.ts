@@ -1,0 +1,30 @@
+export interface IpwhoisResponse {
+  ip: string;
+  success: boolean;
+  type: string;
+  continent?: string | null;
+  continent_code?: string | null;
+  country?: string | null;
+  country_code?: string | null;
+  country_flag?: string | null;
+  country_capital?: string | null;
+  country_phone?: string | null;
+  country_neighbours?: string | null;
+  region?: string | null;
+  city?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+  asn?: string | null;
+  org?: string | null;
+  isp?: string | null;
+  timezone?: string | null;
+  timezone_name?: string | null;
+  timezone_dstOffset?: number | null;
+  timezone_gmtOffset?: number | null;
+  timezone_gmt?: string | null;
+  currency?: string | null;
+  currency_code?: string | null;
+  currency_symbol?: string | null;
+  currency_rates: 1;
+  currency_plural?: string | null;
+}
