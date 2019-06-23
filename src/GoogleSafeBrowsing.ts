@@ -1,33 +1,32 @@
+// https://developers.google.com/safe-browsing/v4/reference/rest/
+
 export interface GoogleSafeBrowsingClientInfo {
   clientId: string;
   clientVersion: string;
 }
 
-export enum GoogleSafeBrowsingThreatType {
-  THREAT_TYPE_UNSPECIFIED = 'THREAT_TYPE_UNSPECIFIED',
-  MALWARE = 'MALWARE',
-  SOCIAL_ENGINEERING = 'SOCIAL_ENGINEERING',
-  UNWANTED_SOFTWARE = 'UNWANTED_SOFTWARE',
-  POTENTIALLY_HARMFUL_APPLICATION = 'POTENTIALLY_HARMFUL_APPLICATION',
-}
+export type GoogleSafeBrowsingThreatType =
+  | 'THREAT_TYPE_UNSPECIFIED'
+  | 'MALWARE'
+  | 'SOCIAL_ENGINEERING'
+  | 'UNWANTED_SOFTWARE'
+  | 'POTENTIALLY_HARMFUL_APPLICATION';
 
-export enum GoogleSafeBrowsingPlatformType {
-  PLATFORM_TYPE_UNSPECIFIED = 'PLATFORM_TYPE_UNSPECIFIED',
-  WINDOWS = 'WINDOWS',
-  LINUX = 'LINUX',
-  ANDROID = 'ANDROID',
-  OSX = 'OSX',
-  IOS = 'IOS',
-  ANY_PLATFORM = 'ANY_PLATFORM',
-  ALL_PLATFORMS = 'ALL_PLATFORMS',
-  CHROME = 'CHROME',
-}
+export type GoogleSafeBrowsingPlatformType =
+  | 'PLATFORM_TYPE_UNSPECIFIED'
+  | 'WINDOWS'
+  | 'LINUX'
+  | 'ANDROID'
+  | 'OSX'
+  | 'IOS'
+  | 'ANY_PLATFORM'
+  | 'ALL_PLATFORMS'
+  | 'CHROME';
 
-export enum GoogleSafeBrowsingThreatEntryType {
-  THREAT_ENTRY_TYPE_UNSPECIFIED = 'THREAT_ENTRY_TYPE_UNSPECIFIED',
-  URL = 'URL',
-  EXECUTABLE = 'EXECUTABLE',
-}
+export type GoogleSafeBrowsingThreatEntryType =
+  | 'THREAT_ENTRY_TYPE_UNSPECIFIED'
+  | 'URL'
+  | 'EXECUTABLE';
 
 export type GoogleSafeBrowsingThreatEntry =
   | {
@@ -71,5 +70,5 @@ export interface GoogleSafeBrowsingThreatMatch {
 }
 
 export interface GoogleSafeBrowsingResponseBody {
-  matches: GoogleSafeBrowsingThreatMatch[];
+  matches?: GoogleSafeBrowsingThreatMatch[];
 }
