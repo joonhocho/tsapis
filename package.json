@@ -1,6 +1,6 @@
 {
   "name": "tsapis",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Various cloud services API response types documented and written in TypeScript",
   "main": "es5/index.js",
   "types": "es5/index.d.ts",
@@ -40,7 +40,7 @@
   "homepage": "https://github.com/joonhocho/tsapis#readme",
   "devDependencies": {
     "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.10",
+    "@types/node": "^12.6.2",
     "coveralls": "^3.0.4",
     "jest": "^24.8.0",
     "pre-commit": "^1.2.2",
@@ -50,6 +50,7 @@
     "tslint": "^5.18.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.5.2"
-  }
+    "typescript": "^3.5.3"
+  },
+  "sideEffects": false
 }
