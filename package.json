@@ -1,7 +1,8 @@
 {
   "name": "tsapis",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Various cloud services API response types documented and written in TypeScript",
+  "module": "lib/index.js",
   "main": "es5/index.js",
   "types": "es5/index.d.ts",
   "scripts": {
